@@ -14,7 +14,7 @@ public class Main{
 		for(int i=0; i<n; i++) {
 			for(int j=0; j<i; j++)
 				System.out.print(" ");
-			for(int j=i*2; j<(2*n)-1; j++)
+			for(int j=0; j<(2*n)-1; j+=2)
 				System.out.print("*");
 			System.out.println();
 		}
